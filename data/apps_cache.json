@@ -1,0 +1,707 @@
+{
+  "7z": {
+    "name": "7z",
+    "path": "C:\\Program Files\\7-Zip\\7z.exe",
+    "source": "program_files"
+  },
+  "7zfm": {
+    "name": "7zFM",
+    "path": "C:\\Program Files\\7-Zip\\7zFM.exe",
+    "source": "program_files"
+  },
+  "7zg": {
+    "name": "7zG",
+    "path": "C:\\Program Files\\7-Zip\\7zG.exe",
+    "source": "program_files"
+  },
+  "uninstall": {
+    "name": "Uninstall",
+    "path": "C:\\Program Files\\7-Zip\\Uninstall.exe",
+    "source": "program_files"
+  },
+  "mdnsresponder": {
+    "name": "mDNSResponder",
+    "path": "C:\\Program Files\\Bonjour\\mDNSResponder.exe",
+    "source": "program_files"
+  },
+  "dotnet": {
+    "name": "dotnet",
+    "path": "C:\\Program Files\\dotnet\\dotnet.exe",
+    "source": "program_files"
+  },
+  "git-bash": {
+    "name": "git-bash",
+    "path": "C:\\Program Files\\Git\\git-bash.exe",
+    "source": "program_files"
+  },
+  "git-cmd": {
+    "name": "git-cmd",
+    "path": "C:\\Program Files\\Git\\git-cmd.exe",
+    "source": "program_files"
+  },
+  "unins001": {
+    "name": "unins001",
+    "path": "C:\\Program Files\\Git\\unins001.exe",
+    "source": "program_files"
+  },
+  "hpcommrecovery": {
+    "name": "HPCommRecovery",
+    "path": "C:\\Program Files\\HPCommRecovery\\HPCommRecovery.exe",
+    "source": "program_files"
+  },
+  "hpprinterhealthmonitor": {
+    "name": "HPPrinterHealthMonitor",
+    "path": "C:\\Program Files\\HPPrintScanDoctor\\HPPrinterHealthMonitor.exe",
+    "source": "program_files"
+  },
+  "hpprintscandoctordeploymentmgr": {
+    "name": "HPPrintScanDoctorDeploymentMgr",
+    "path": "C:\\Program Files\\HPPrintScanDoctor\\HPPrintScanDoctorDeploymentMgr.exe",
+    "source": "program_files"
+  },
+  "hpprintscandoctorservice": {
+    "name": "HPPrintScanDoctorService",
+    "path": "C:\\Program Files\\HPPrintScanDoctor\\HPPrintScanDoctorService.exe",
+    "source": "program_files"
+  },
+  "hpsupd-win32exe": {
+    "name": "HPSUPD-Win32Exe",
+    "path": "C:\\Program Files\\HPPrintScanDoctor\\HPSUPD-Win32Exe.exe",
+    "source": "program_files"
+  },
+  "wingetdownloader": {
+    "name": "WinGetDownloader",
+    "path": "C:\\Program Files\\HPPrintScanDoctor\\WinGetDownloader.exe",
+    "source": "program_files"
+  },
+  "extexport": {
+    "name": "ExtExport",
+    "path": "C:\\Program Files\\Internet Explorer\\ExtExport.exe",
+    "source": "program_files"
+  },
+  "iediagcmd": {
+    "name": "iediagcmd",
+    "path": "C:\\Program Files\\Internet Explorer\\iediagcmd.exe",
+    "source": "program_files"
+  },
+  "ieinstal": {
+    "name": "ieinstal",
+    "path": "C:\\Program Files\\Internet Explorer\\ieinstal.exe",
+    "source": "program_files"
+  },
+  "ielowutil": {
+    "name": "ielowutil",
+    "path": "C:\\Program Files\\Internet Explorer\\ielowutil.exe",
+    "source": "program_files"
+  },
+  "iexplore": {
+    "name": "iexplore",
+    "path": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+    "source": "program_files"
+  },
+  "onedrive.app": {
+    "name": "OneDrive.App",
+    "path": "C:\\Program Files\\Microsoft OneDrive\\OneDrive.App.exe",
+    "source": "program_files"
+  },
+  "onedrive": {
+    "name": "OneDrive",
+    "path": "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe",
+    "source": "program_files"
+  },
+  "onedrivestandaloneupdater": {
+    "name": "OneDriveStandaloneUpdater",
+    "path": "C:\\Program Files\\Microsoft OneDrive\\OneDriveStandaloneUpdater.exe",
+    "source": "program_files"
+  },
+  "expediteupdater": {
+    "name": "expediteupdater",
+    "path": "C:\\Program Files\\Microsoft Update Health Tools\\expediteupdater.exe",
+    "source": "program_files"
+  },
+  "uhssvc": {
+    "name": "uhssvc",
+    "path": "C:\\Program Files\\Microsoft Update Health Tools\\uhssvc.exe",
+    "source": "program_files"
+  },
+  "recuva": {
+    "name": "recuva",
+    "path": "C:\\Program Files\\Recuva\\recuva.exe",
+    "source": "program_files"
+  },
+  "recuva64": {
+    "name": "recuva64",
+    "path": "C:\\Program Files\\Recuva\\recuva64.exe",
+    "source": "program_files"
+  },
+  "uninst": {
+    "name": "uninst",
+    "path": "C:\\Program Files\\Recuva\\uninst.exe",
+    "source": "program_files"
+  },
+  "configsecuritypolicy": {
+    "name": "ConfigSecurityPolicy",
+    "path": "C:\\Program Files\\Windows Defender\\ConfigSecurityPolicy.exe",
+    "source": "program_files"
+  },
+  "dlpuseragent": {
+    "name": "DlpUserAgent",
+    "path": "C:\\Program Files\\Windows Defender\\DlpUserAgent.exe",
+    "source": "program_files"
+  },
+  "mipdlp": {
+    "name": "MipDlp",
+    "path": "C:\\Program Files\\Windows Defender\\MipDlp.exe",
+    "source": "program_files"
+  },
+  "mpcmdrun": {
+    "name": "MpCmdRun",
+    "path": "C:\\Program Files\\Windows Defender\\MpCmdRun.exe",
+    "source": "program_files"
+  },
+  "mpcopyaccelerator": {
+    "name": "MpCopyAccelerator",
+    "path": "C:\\Program Files\\Windows Defender\\MpCopyAccelerator.exe",
+    "source": "program_files"
+  },
+  "mpdefendercoreservice": {
+    "name": "MpDefenderCoreService",
+    "path": "C:\\Program Files\\Windows Defender\\MpDefenderCoreService.exe",
+    "source": "program_files"
+  },
+  "mpdlpcmd": {
+    "name": "MpDlpCmd",
+    "path": "C:\\Program Files\\Windows Defender\\MpDlpCmd.exe",
+    "source": "program_files"
+  },
+  "mpdlpservice": {
+    "name": "MpDlpService",
+    "path": "C:\\Program Files\\Windows Defender\\MpDlpService.exe",
+    "source": "program_files"
+  },
+  "mpextms": {
+    "name": "mpextms",
+    "path": "C:\\Program Files\\Windows Defender\\mpextms.exe",
+    "source": "program_files"
+  },
+  "msmpeng": {
+    "name": "MsMpEng",
+    "path": "C:\\Program Files\\Windows Defender\\MsMpEng.exe",
+    "source": "program_files"
+  },
+  "nissrv": {
+    "name": "NisSrv",
+    "path": "C:\\Program Files\\Windows Defender\\NisSrv.exe",
+    "source": "program_files"
+  },
+  "wab": {
+    "name": "wab",
+    "path": "C:\\Program Files\\Windows Mail\\wab.exe",
+    "source": "program_files"
+  },
+  "wabmig": {
+    "name": "wabmig",
+    "path": "C:\\Program Files\\Windows Mail\\wabmig.exe",
+    "source": "program_files"
+  },
+  "setup_wm": {
+    "name": "setup_wm",
+    "path": "C:\\Program Files\\Windows Media Player\\setup_wm.exe",
+    "source": "program_files"
+  },
+  "wmlaunch": {
+    "name": "wmlaunch",
+    "path": "C:\\Program Files\\Windows Media Player\\wmlaunch.exe",
+    "source": "program_files"
+  },
+  "wmpconfig": {
+    "name": "wmpconfig",
+    "path": "C:\\Program Files\\Windows Media Player\\wmpconfig.exe",
+    "source": "program_files"
+  },
+  "wmplayer": {
+    "name": "wmplayer",
+    "path": "C:\\Program Files\\Windows Media Player\\wmplayer.exe",
+    "source": "program_files"
+  },
+  "wmpnetwk": {
+    "name": "wmpnetwk",
+    "path": "C:\\Program Files\\Windows Media Player\\wmpnetwk.exe",
+    "source": "program_files"
+  },
+  "wmpnscfg": {
+    "name": "wmpnscfg",
+    "path": "C:\\Program Files\\Windows Media Player\\wmpnscfg.exe",
+    "source": "program_files"
+  },
+  "wmprph": {
+    "name": "wmprph",
+    "path": "C:\\Program Files\\Windows Media Player\\wmprph.exe",
+    "source": "program_files"
+  },
+  "wmpshare": {
+    "name": "wmpshare",
+    "path": "C:\\Program Files\\Windows Media Player\\wmpshare.exe",
+    "source": "program_files"
+  },
+  "imagingdevices": {
+    "name": "ImagingDevices",
+    "path": "C:\\Program Files\\Windows Photo Viewer\\ImagingDevices.exe",
+    "source": "program_files"
+  },
+  "rar": {
+    "name": "Rar",
+    "path": "C:\\Program Files\\WinRAR\\Rar.exe",
+    "source": "program_files"
+  },
+  "rarextinstaller": {
+    "name": "RarExtInstaller",
+    "path": "C:\\Program Files\\WinRAR\\RarExtInstaller.exe",
+    "source": "program_files"
+  },
+  "unrar": {
+    "name": "UnRAR",
+    "path": "C:\\Program Files\\WinRAR\\UnRAR.exe",
+    "source": "program_files"
+  },
+  "winrar": {
+    "name": "WinRAR",
+    "path": "C:\\Program Files\\WinRAR\\WinRAR.exe",
+    "source": "program_files"
+  },
+  "msal.wsl.proxy": {
+    "name": "msal.wsl.proxy",
+    "path": "C:\\Program Files\\WSL\\msal.wsl.proxy.exe",
+    "source": "program_files"
+  },
+  "msrdc": {
+    "name": "msrdc",
+    "path": "C:\\Program Files\\WSL\\msrdc.exe",
+    "source": "program_files"
+  },
+  "wsl": {
+    "name": "wsl",
+    "path": "C:\\Program Files\\WSL\\wsl.exe",
+    "source": "program_files"
+  },
+  "wslg": {
+    "name": "wslg",
+    "path": "C:\\Program Files\\WSL\\wslg.exe",
+    "source": "program_files"
+  },
+  "wslhost": {
+    "name": "wslhost",
+    "path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "source": "program_files"
+  },
+  "wslrelay": {
+    "name": "wslrelay",
+    "path": "C:\\Program Files\\WSL\\wslrelay.exe",
+    "source": "program_files"
+  },
+  "wslservice": {
+    "name": "wslservice",
+    "path": "C:\\Program Files\\WSL\\wslservice.exe",
+    "source": "program_files"
+  },
+  "7-zip24.06(x64)": {
+    "name": "7-Zip 24.06 (x64)",
+    "path": "C:\\Program Files\\7-Zip\\",
+    "source": "registry"
+  },
+  "git": {
+    "name": "Git",
+    "path": "C:\\Program Files\\Git\\",
+    "source": "registry"
+  },
+  "microsoftofficehomeandstudent2021-en-us": {
+    "name": "Microsoft Office Home and Student 2021 - en-us",
+    "path": "C:\\Program Files\\Microsoft Office",
+    "source": "registry"
+  },
+  "microsoftonenote-en-us": {
+    "name": "Microsoft OneNote - en-us",
+    "path": "C:\\Program Files\\Microsoft Office",
+    "source": "registry"
+  },
+  "vlcmediaplayer": {
+    "name": "VLC media player",
+    "path": "C:\\Program Files\\VideoLAN\\VLC",
+    "source": "registry"
+  },
+  "winrar7.01(64-bit)": {
+    "name": "WinRAR 7.01 (64-bit)",
+    "path": "C:\\Program Files\\WinRAR",
+    "source": "registry"
+  },
+  "3dexperiencemarketplaceforsolidworks": {
+    "name": "3DEXPERIENCE Marketplace for SOLIDWORKS",
+    "path": "C:\\Program Files\\Common Files\\SOLIDWORKS Shared\\3DEXPERIENCE Marketplace\\",
+    "source": "registry"
+  },
+  "microsoftbuildofopenjdk17.0.12+7(x64)": {
+    "name": "Microsoft Build of OpenJDK  17.0.12+7 (x64)",
+    "path": "C:\\Program Files\\Microsoft\\jdk-17.0.12.7-hotspot\\",
+    "source": "registry"
+  },
+  "mysqlserver8.0": {
+    "name": "MySQL Server 8.0",
+    "path": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\",
+    "source": "registry"
+  },
+  "solidworks2022sp01": {
+    "name": "SOLIDWORKS 2022 SP01",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\",
+    "source": "registry"
+  },
+  "solidworkscomposer2022sp01": {
+    "name": "SOLIDWORKS Composer 2022 SP01",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS Composer\\",
+    "source": "registry"
+  },
+  "java(tm)sedevelopmentkit21.0.2(64-bit)": {
+    "name": "Java(TM) SE Development Kit 21.0.2 (64-bit)",
+    "path": "C:\\Program Files\\Java\\jdk-21\\",
+    "source": "registry"
+  },
+  "solidworkscam2022sp01": {
+    "name": "SOLIDWORKS CAM 2022 SP01",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS CAM\\",
+    "source": "registry"
+  },
+  "solidworksvisualize2022sp01": {
+    "name": "SOLIDWORKS Visualize 2022 SP01",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS Visualize\\",
+    "source": "registry"
+  },
+  "bonjour": {
+    "name": "Bonjour",
+    "path": "C:\\Program Files (x86)\\Bonjour\\",
+    "source": "registry"
+  },
+  "microsoftvisualstudioinstaller": {
+    "name": "Microsoft Visual Studio Installer",
+    "path": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\"",
+    "source": "registry"
+  },
+  "solidworksplastics2022sp01": {
+    "name": "SOLIDWORKS Plastics 2022 SP01",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS Plastics\\",
+    "source": "registry"
+  },
+  "solidworkspcb2022sp01": {
+    "name": "SOLIDWORKS PCB 2022 SP01",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS PCB\\",
+    "source": "registry"
+  },
+  "dokanlibrary2.2.1.1000(x64)": {
+    "name": "Dokan Library 2.2.1.1000 (x64)",
+    "path": "C:\\Program Files\\Dokan\\Dokan Library-2.2.1\\",
+    "source": "registry"
+  },
+  "mysqlworkbench8.0ce": {
+    "name": "MySQL Workbench 8.0 CE",
+    "path": "C:\\Program Files\\MySQL\\MySQL Workbench 8.0",
+    "source": "registry"
+  },
+  "solidworksflowsimulation2022sp01": {
+    "name": "SOLIDWORKS Flow Simulation 2022 SP01 ",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS Flow Simulation\\",
+    "source": "registry"
+  },
+  "solidworksedrawings2022sp01": {
+    "name": "SOLIDWORKS eDrawings 2022 SP01",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\eDrawings\\",
+    "source": "registry"
+  },
+  "nvidiagraphicsdriver581.83": {
+    "name": "NVIDIA Graphics Driver 581.83",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\Display.Driver.{99E29C87-972E-4E45-87A5-D47D9CDFF282}",
+    "source": "registry"
+  },
+  "nvidiageforceexperience3.27.0.114": {
+    "name": "NVIDIA GeForce Experience 3.27.0.114",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\Display.GFExperience.{5B3C3E70-1089-4DE6-A74E-436C7C9A977E}",
+    "source": "registry"
+  },
+  "nvidiaphysxsystemsoftware9.21.0713": {
+    "name": "NVIDIA PhysX System Software 9.21.0713",
+    "path": "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX",
+    "source": "registry"
+  },
+  "nvidiaframeviewsdk1.3.8513.32290073": {
+    "name": "NVIDIA FrameView SDK 1.3.8513.32290073",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\FrameViewSDK",
+    "source": "registry"
+  },
+  "nvidiashieldstreaming": {
+    "name": "NVIDIA SHIELD Streaming",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\NvStreamSrv",
+    "source": "registry"
+  },
+  "nvidiagpxcommonossbinaries(poco,openssl,libprotobuf)": {
+    "name": "NVIDIA GPX Common OSS binaries (POCO, OpenSSL, libprotobuf)",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\GpxCommon.Oss.{06A50F0B-49EE-470E-A549-1CD3AC105E56}",
+    "source": "registry"
+  },
+  "nvidiainstallapplication": {
+    "name": "NVIDIA Install Application",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\InstallerCore",
+    "source": "registry"
+  },
+  "nvidiabackend": {
+    "name": "NVIDIA Backend",
+    "path": "C:\\Program Files (x86)\\NVIDIA Corporation\\Update Core",
+    "source": "registry"
+  },
+  "nvidiacontainer": {
+    "name": "NVIDIA Container",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\NvContainer",
+    "source": "registry"
+  },
+  "nvidiatelemetryapihelperfornvcontainer": {
+    "name": "NVIDIA TelemetryApi helper for NvContainer",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvContainer.ContainerTelemetryApiHelper.{E39D03E3-9099-495F-AC6F-EE49D1424050}",
+    "source": "registry"
+  },
+  "nvidialocalsystemcontainer": {
+    "name": "NVIDIA LocalSystem Container",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvContainer.LocalSystem.{F51FDBA2-07BF-4BFB-9D6D-2ADD2827BB31}",
+    "source": "registry"
+  },
+  "nvidiamessagebusfornvcontainer": {
+    "name": "NVIDIA Message Bus for NvContainer",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvContainer.MessageBus.{B755C26E-34D8-4832-93CF-6EDCD34DA3D8}",
+    "source": "registry"
+  },
+  "nvidianvapimonitorpluginfornvcontainer": {
+    "name": "NVIDIA NVAPI Monitor plugin for NvContainer",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvContainer.NvapiMonitor.{6AAF1035-F36A-4266-8B33-AA94AF275B9E}",
+    "source": "registry"
+  },
+  "nvidianetworkservicecontainer": {
+    "name": "NVIDIA NetworkService Container",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvContainer.ServiceUser.{5833172B-9272-463B-B419-87BEF1767190}",
+    "source": "registry"
+  },
+  "nvidiasessioncontainer": {
+    "name": "NVIDIA Session Container",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvContainer.Session.{53711411-9387-46DA-854F-B55B4A45D53E}",
+    "source": "registry"
+  },
+  "nvidiausercontainer": {
+    "name": "NVIDIA User Container",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvContainer.User.{BD42B22C-DBBA-429E-9406-E1280AE4DE3A}",
+    "source": "registry"
+  },
+  "nvidianvmoduletracker": {
+    "name": "NVIDIA NvModuleTracker",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvModuleTracker.Driver.{BB9FA058-45C6-4654-B961-B377E722B086}",
+    "source": "registry"
+  },
+  "nvidianodejs": {
+    "name": "NVIDIA NodeJS",
+    "path": "C:\\Program Files (x86)\\NVIDIA Corporation\\NvNode",
+    "source": "registry"
+  },
+  "nvidiaplatformcontrollersandframework": {
+    "name": "NVIDIA Platform Controllers and Framework",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NVPCF.{70270D07-55D8-4A44-8FA3-5ADA0462580F}",
+    "source": "registry"
+  },
+  "nvidiawatchdogpluginfornvcontainer": {
+    "name": "NVIDIA Watchdog Plugin for NvContainer",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvPlugin.Watchdog.{A0CCBEE0-1C3D-4823-8399-F88ADA32B156}",
+    "source": "registry"
+  },
+  "nvidiatelemetryclient": {
+    "name": "NVIDIA Telemetry Client",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\NvTelemetry",
+    "source": "registry"
+  },
+  "nvidiavirtualhostcontroller": {
+    "name": "NVIDIA Virtual Host Controller",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\NvVHCI.{AEB65FBD-A70B-4627-8F17-D5DC31F24665}",
+    "source": "registry"
+  },
+  "nvidiashare": {
+    "name": "Nvidia Share",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\OSC.{7CE19E71-F3A9-44F2-89C7-172940929722}",
+    "source": "registry"
+  },
+  "nvidiashadowplay3.27.0.114": {
+    "name": "NVIDIA ShadowPlay 3.27.0.114",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\ShadowPlay",
+    "source": "registry"
+  },
+  "nvidiashieldwirelesscontrollerdriver": {
+    "name": "NVIDIA SHIELD Wireless Controller Driver",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\ShieldWirelessController.{732A89E2-6972-4DFB-97A4-B0EAD008E7FA}",
+    "source": "registry"
+  },
+  "nvidiavirtualaudio4.49.0.0": {
+    "name": "NVIDIA Virtual Audio 4.49.0.0",
+    "path": "C:\\Program Files\\NVIDIA Corporation\\Installer2\\VirtualAudio.Driver.{98C6D569-F134-4275-ADEB-7A8CB60295B3}",
+    "source": "registry"
+  },
+  "mysqlshell": {
+    "name": "MySQL Shell",
+    "path": "C:\\Program Files\\MySQL\\MySQL Shell 8.0",
+    "source": "registry"
+  },
+  "solidworksfileutilities2022sp01": {
+    "name": "SOLIDWORKS File Utilities 2022 SP01",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS File Utilities\\",
+    "source": "registry"
+  },
+  "solidworksvisualizeboost2022sp01": {
+    "name": "SOLIDWORKS Visualize Boost 2022 SP01",
+    "path": "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS Visualize Boost\\",
+    "source": "registry"
+  },
+  "visualstudiobuildtools2019": {
+    "name": "Visual Studio Build Tools 2019",
+    "path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools",
+    "source": "registry"
+  },
+  "brave": {
+    "name": "Brave",
+    "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application",
+    "source": "registry"
+  },
+  "googlechrome": {
+    "name": "Google Chrome",
+    "path": "C:\\Program Files\\Google\\Chrome\\Application",
+    "source": "registry"
+  },
+  "copilot": {
+    "name": "Copilot",
+    "path": "C:\\Program Files (x86)\\Microsoft\\Copilot\\Application",
+    "source": "registry"
+  },
+  "microsoftedge": {
+    "name": "Microsoft Edge",
+    "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application",
+    "source": "registry"
+  },
+  "microsoftedgewebview2runtime": {
+    "name": "Microsoft Edge WebView2 Runtime",
+    "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application",
+    "source": "registry"
+  },
+  "terabox": {
+    "name": "TeraBox",
+    "path": "C:\\Users\\Kaushik\\AppData\\Roaming\\TeraBox",
+    "source": "registry"
+  },
+  "wildtangentgames": {
+    "name": "WildTangent Games",
+    "path": "C:\\Program Files (x86)\\WildGames",
+    "source": "registry"
+  },
+  "welcometoprimroselake": {
+    "name": "Welcome to Primrose Lake",
+    "path": "C:\\Program Files (x86)\\WildGames\\Welcome to Primrose Lake",
+    "source": "registry"
+  },
+  "updateinstallerforwildtangentgamesapp": {
+    "name": "Update Installer for WildTangent Games App",
+    "path": "C:\\Program Files (x86)\\WildTangent Games\\App",
+    "source": "registry"
+  },
+  "webadvisorbymcafee": {
+    "name": "WebAdvisor by McAfee",
+    "path": "C:\\Program Files\\McAfee\\WebAdvisor",
+    "source": "registry"
+  },
+  "wondersharehelpercompact2.6.0": {
+    "name": "Wondershare Helper Compact 2.6.0",
+    "path": "C:\\Program Files (x86)\\Common Files\\Wondershare\\Wondershare Helper Compact\\",
+    "source": "registry"
+  },
+  "hpconnectionoptimizer": {
+    "name": "HP Connection Optimizer",
+    "path": "C:\\Program Files (x86)\\HP Inc\\HP Connection Optimizer",
+    "source": "registry"
+  },
+  "wildtangentshortcutprovider": {
+    "name": "WildTangent ShortcutProvider",
+    "path": "C:\\Program Files (x86)\\WildTangent Games\\ShortcutProvider",
+    "source": "registry"
+  },
+  "truoapp": {
+    "name": "TruoApp",
+    "path": "C:\\Users\\Kaushik\\AppData\\Roaming\\Voiajf Public\\TruoApp\\",
+    "source": "registry"
+  },
+  "notepad": {
+    "name": "Notepad",
+    "path": "notepad.exe",
+    "source": "system"
+  },
+  "calculator": {
+    "name": "Calculator",
+    "path": "calc.exe",
+    "source": "system"
+  },
+  "wordpad": {
+    "name": "WordPad",
+    "path": "wordpad.exe",
+    "source": "system"
+  },
+  "paint": {
+    "name": "Paint",
+    "path": "mspaint.exe",
+    "source": "system"
+  },
+  "camera": {
+    "name": "Camera",
+    "path": "cameracapture.exe",
+    "source": "system"
+  },
+  "settings": {
+    "name": "Settings",
+    "path": "ms-settings:",
+    "source": "system"
+  },
+  "powershell": {
+    "name": "PowerShell",
+    "path": "powershell.exe",
+    "source": "system"
+  },
+  "cmd": {
+    "name": "Command Prompt",
+    "path": "cmd.exe",
+    "source": "system"
+  },
+  "explorer": {
+    "name": "File Explorer",
+    "path": "explorer.exe",
+    "source": "system"
+  },
+  "taskmgr": {
+    "name": "Task Manager",
+    "path": "taskmgr.exe",
+    "source": "system"
+  },
+  "devmgmt": {
+    "name": "Device Manager",
+    "path": "devmgmt.msc",
+    "source": "system"
+  },
+  "services": {
+    "name": "Services",
+    "path": "services.msc",
+    "source": "system"
+  },
+  "msconfig": {
+    "name": "System Configuration",
+    "path": "msconfig.exe",
+    "source": "system"
+  },
+  "control": {
+    "name": "Control Panel",
+    "path": "control.exe",
+    "source": "system"
+  }
+}
