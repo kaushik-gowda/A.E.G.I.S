@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.E.G.I.S - Holographic Core</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            background: #000000;
+            overflow: hidden;
+        }
+        #canvas {
+            display: block;
+            background: #000000;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <script>
+        class HolographicCore {
+            constructor() {
+                this.canvas = document.getElementById('canvas');
+                this.ctx = this.canvas.getContext('2d');
+                this.canvas.width = window.innerWidth;
+                this.canvas.height = window.innerHeight;
+
+                this.centerX = this.canvas.width / 2;
+                this.centerY = this.canvas.height / 2;
+                this.time = 0;
+                this.particles = [];
+
+                // Create particles with random scattered velocity
+                for (let i = 0; i < 800; i++) {
+                    this.particles.push({
+                        x: this.centerX + (Math.random() - 0.5) * 200,
+                        y: this.centerY + (Math.random() - 0.5) * 200,
+                        vx: (Math.random() - 0.5) * 4,
+                        vy: (Math.random() - 0.5) * 4,
+                        size: Math.random() * 2 + 0.5
+                    });
+                }
+
+                window.addEventListener('resize', () => this.onWindowResize());
+                this.animate();
+            }
+
+            updateParticles() {
+                this.particles.forEach(p => {
+                    // Add some randomness to movement
+                    p.vx += (Math.random() - 0.5) * 0.3;
+                    p.vy += (Math.random() - 0.5) * 0.3;
+
+                    // Limit velocity
+                    const speed = Math.sqrt(p.vx * p.vx + p.vy * p.vy);
+                    if (speed > 3) {
+                        p.vx = (p.vx / speed) * 3;
+                        p.vy = (p.vy / speed) * 3;
+                    }
+
+                    // Update position
+                    p.x += p.vx;
+                    p.y += p.vy;
+
+                    // Gentle attraction to center
+                    const dx = this.centerX - p.x;
+                    const dy = this.centerY - p.y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+
+                    if (dist > 300) {
+                        p.vx += (dx / dist) * 0.15;
+                        p.vy += (dy / dist) * 0.15;
+                    }
+                });
+            }
+
+            render() {
+                // Fade out trail
+                this.ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+                this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+
+                // Draw particles
+                this.ctx.fillStyle = 'rgba(255, 165, 0, 0.8)';
+                this.particles.forEach(p => {
+                    this.ctx.beginPath();
+                    this.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                    this.ctx.fill();
+                });
+
+                // Draw pulsing center circle
+                const pulse = Math.sin(this.time * 0.02) * 15 + 40;
+                
+                // Outer glow
+                const glowGradient = this.ctx.createRadialGradient(
+                    this.centerX, this.centerY, 0,
+                    this.centerX, this.centerY, pulse * 2
+                );
+                glowGradient.addColorStop(0, 'rgba(255, 200, 100, 0.6)');
+                glowGradient.addColorStop(0.5, 'rgba(255, 165, 0, 0.3)');
+                glowGradient.addColorStop(1, 'rgba(255, 140, 0, 0)');
+
+                this.ctx.fillStyle = glowGradient;
+                this.ctx.beginPath();
+                this.ctx.arc(this.centerX, this.centerY, pulse * 2, 0, Math.PI * 2);
+                this.ctx.fill();
+
+                // Ring
+                this.ctx.strokeStyle = 'rgba(255, 165, 0, 0.9)';
+                this.ctx.lineWidth = 2;
+                this.ctx.beginPath();
+                this.ctx.arc(this.centerX, this.centerY, pulse, 0, Math.PI * 2);
+                this.ctx.stroke();
+
+                // Inner core
+                this.ctx.fillStyle = 'rgba(255, 200, 150, 1)';
+                this.ctx.beginPath();
+                this.ctx.arc(this.centerX, this.centerY, pulse * 0.3, 0, Math.PI * 2);
+                this.ctx.fill();
+            }
+
+            onWindowResize() {
+                this.canvas.width = window.innerWidth;
+                this.canvas.height = window.innerHeight;
+                this.centerX = this.canvas.width / 2;
+                this.centerY = this.canvas.height / 2;
+            }
+
+            animate() {
+                this.time++;
+                this.updateParticles();
+                this.render();
+                requestAnimationFrame(() => this.animate());
+            }
+        }
+
+        // Initialize
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                new HolographicCore();
+            });
+        } else {
+            new HolographicCore();
+        }
+    </script>
+</body>
+</html>
